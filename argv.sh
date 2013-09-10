@@ -70,7 +70,7 @@ invalid_option(){
 
 # print usage
 if [[ "$#" = 0 ]]; then
-    echo "safe-rm"
+    echo "$COMMAND"
     usage
 
     # if has an invalid option, exit with 64
